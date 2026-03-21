@@ -26,6 +26,9 @@ drwxr-xr-x  2 w3nden w3nden 4096 mrt 19 21:40 Public
 drwx------  2 w3nden w3nden 4096 mrt 19 22:37 .ssh
 drwxr-xr-x  2 w3nden w3nden 4096 mrt 19 21:41 Templates
 drwxr-xr-x  3 w3nden w3nden 4096 mrt 19 22:27 Videos
+w3nden@w3nden-Aspire-V5-572G:~$ cd /home/w3nden
+w3nden@w3nden-Aspire-V5-572G:~$ pwd
+/home/w3nden
 w3nden@w3nden-Aspire-V5-572G:~$ cd ~
 w3nden@w3nden-Aspire-V5-572G:~$ mkdir my_homework
 w3nden@w3nden-Aspire-V5-572G:~$ cd my_homework
@@ -260,3 +263,19 @@ drwxr-x--- 19 w3nden w3nden 4096 mrt 21 12:06 ..
 📍 Повернулися назад: /home/w3nden/my_homework
 📚 Довідка по ls:
 ✅ Сценарій завершено!
+
+**Список команд, використаних у сценарії `script.sh`:**
+1. `echo "🚀 Початок сценарію..."`
+2. `cd ~/my_homework`
+3. `echo "📍 Тепер у каталозі: $(pwd)"`
+4. `touch new_file.txt`
+5. `echo "✅ Файл new_file.txt створено"`
+6. `ls -la`
+7. `echo "📄 Список файлів виведено"`
+8. `cd ~`
+9. `echo "📍 Тепер у домашній папці: $(pwd)"`
+10. `cd -`
+11. `echo "📍 Повернулися назад: $(pwd)"`
+12. `echo "📚 Довідка по ls:"`
+13. `man ls`
+14. `echo "✅ Сценарій завершено!"`
